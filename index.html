@@ -4,10 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#101216">
-  <meta name="description" content="Northfield Design offers website updates, graphic design, social media support and video editing for businesses.">
-  <title>Northfield Design</title>
+  <meta name="description" content="Explore Northfield Design's social media, video editing, website maintenance and graphic design services.">
+  <title>Explore — Northfield Design</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23101216'/%3E%3Cpath d='M15 46V18h7l20 18V18h7v28h-7L22 28v18z' fill='%233b6bff'/%3E%3C/svg%3E">
   <style>
+
     :root{color-scheme:light;--ink:#101216;--muted:#59606a;--blue:#315fff;--line:#dce0e7;--paper:#f7f8fa;--white:#fff}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--white);color:var(--ink);font-family:Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}button{font:inherit}a:focus-visible,button:focus-visible{outline:3px solid var(--blue);outline-offset:4px}
     .wrap{width:min(1180px,calc(100% - 48px));margin-inline:auto}.header{border-bottom:1px solid var(--line)}.nav{min-height:82px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:11px;font-size:17px;font-weight:900;letter-spacing:-.055em}.brand-mark{display:grid;place-items:center;width:35px;height:35px;border-radius:8px;background:var(--blue);color:#fff;font-weight:900;font-size:20px}.links{display:flex;align-items:center;gap:34px;font-size:14px;font-weight:700}.links a:hover,.footer a:hover{color:var(--blue)}.nav-contact{padding:13px 18px;background:var(--ink);color:#fff!important;border-radius:4px}.nav-contact:hover{background:var(--blue)}
@@ -18,39 +19,43 @@
     @media(max-width:700px){.wrap{width:min(100% - 36px,1180px)}.nav{min-height:70px}.links{gap:15px;font-size:13px}.links .about-link{display:none}.nav-contact{padding:10px 12px}.hero{padding:76px 0 82px}.hero-bottom,.section-top{align-items:start;flex-direction:column}.hero-bottom{margin-top:35px;gap:26px}.services,.process{padding:72px 0}.service-grid{grid-template-columns:1fr}.service-card{min-height:230px;padding:25px}.steps{grid-template-columns:1fr;gap:30px;margin-top:40px}.step h3{margin-top:18px}.contact{padding:78px 0}.footer-inner{align-items:start;flex-direction:column}}
     @media(max-width:390px){.brand{font-size:15px}.links{gap:10px}.links a:first-child{display:none}.hero h1{font-size:3.5rem}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button{transition:none}}
-  </style>
+  
+/* Services and About page styles */
+
+    .page-hero{padding:94px 0 84px}.page-hero h1{max-width:900px;margin:0;font-size:clamp(4rem,9vw,8rem);line-height:.95;letter-spacing:-.085em}.page-hero h1 span{color:var(--blue)}.page-hero>p:last-child{max-width:590px;margin:34px 0 0;color:var(--muted);font-size:clamp(1.1rem,2vw,1.4rem);line-height:1.5}
+    .service-list{background:var(--paper);padding:24px 0 95px}.service-detail{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:65px;padding:66px 0;border-bottom:1px solid #cbd0d9}.service-detail:last-child{border-bottom:0}.detail-heading{display:flex;align-items:start;gap:22px}.detail-heading span{color:var(--blue);font-size:13px;font-weight:900;padding-top:11px}.detail-heading h2{margin:0;font-size:clamp(2rem,4vw,3.7rem);line-height:1.04;letter-spacing:-.065em}.detail-copy>p{margin:0 0 26px;color:#3e454f;font-size:18px;line-height:1.6}.detail-copy h3{font-size:13px;letter-spacing:.11em;text-transform:uppercase;margin:0 0 15px}.detail-copy ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 22px}.detail-copy li{padding-left:18px;position:relative;color:var(--muted);font-size:15px;line-height:1.45}.detail-copy li::before{content:"";position:absolute;left:0;top:9px;width:6px;height:6px;background:var(--blue);border-radius:50%}.detail-note{margin-top:25px!important;font-size:14px!important;color:var(--muted)!important}
+    .other{padding:75px 0 90px}.other h2{margin:0 0 15px;font-size:clamp(2rem,4vw,3.7rem);letter-spacing:-.06em}.other p{max-width:650px;margin:0 0 26px;color:var(--muted);font-size:17px;line-height:1.6}
+    @media(max-width:700px){.page-hero{padding:72px 0 67px}.service-list{padding:10px 0 60px}.service-detail{grid-template-columns:1fr;gap:23px;padding:46px 0}.detail-heading{gap:15px}.detail-copy ul{grid-template-columns:1fr 1fr}.other{padding:65px 0}}
+    @media(max-width:430px){.detail-copy ul{grid-template-columns:1fr}}
+  
+
+    .about-hero{padding:105px 0 110px}.about-hero h1{max-width:1020px;margin:0;font-size:clamp(3.8rem,8.5vw,8rem);line-height:.96;letter-spacing:-.085em}.about-hero h1 span{color:var(--blue)}.about-lead{max-width:750px;margin:42px 0 0;font-size:clamp(1.3rem,2.5vw,2rem);line-height:1.4;letter-spacing:-.035em}
+    .about-main{background:var(--paper);padding:100px 0}.about-columns{display:grid;grid-template-columns:1fr 1fr;gap:85px}.about-columns h2{margin:0;font-size:clamp(2.5rem,5vw,4.8rem);line-height:1;letter-spacing:-.065em}.about-text p{margin:0 0 22px;color:#3e454f;font-size:18px;line-height:1.7}.about-text p:last-child{margin-bottom:0}
+    .approach{padding:95px 0 105px}.approach h2{margin:0 0 45px;font-size:clamp(2.5rem,5vw,4.8rem);line-height:1;letter-spacing:-.065em}.principles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px}.principle{border-top:2px solid var(--ink);padding-top:20px}.principle span{color:var(--blue);font-weight:900;font-size:13px}.principle h3{margin:28px 0 11px;font-size:23px;letter-spacing:-.04em}.principle p{max-width:330px;margin:0;color:var(--muted);line-height:1.6}
+    @media(max-width:700px){.about-hero{padding:77px 0 83px}.about-lead{margin-top:30px}.about-main{padding:72px 0}.about-columns{grid-template-columns:1fr;gap:32px}.approach{padding:74px 0}.principles{grid-template-columns:1fr;gap:32px}.principle h3{margin-top:18px}}
+  
+
+/* Explore landing page */
+.landing-page{background:#f7f8fa}.landing{padding-bottom:42px}.landing-brand{display:inline-flex;margin-top:28px}.landing-intro{text-align:center;padding:78px 0 54px}.landing-intro .section-label{margin-bottom:20px}.landing-intro h1{margin:0;font-size:clamp(3.2rem,7.5vw,7.4rem);line-height:.98;letter-spacing:-.08em}.landing-intro>p:last-child{margin:24px 0 0;color:var(--muted);font-size:18px}.explore-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.explore-card{min-height:260px;display:flex;flex-direction:column;justify-content:space-between;position:relative;padding:28px 32px;background:#fff;border:1px solid var(--line);transition:border-color .2s,transform .2s,box-shadow .2s}.explore-card:hover{border-color:var(--blue);transform:translateY(-3px);box-shadow:0 12px 28px rgba(16,18,22,.06)}.explore-count{color:var(--blue);font-size:12px;font-weight:900;letter-spacing:.1em}.explore-content{display:flex;flex-direction:column;gap:13px;padding-right:34px}.explore-content strong{font-size:clamp(1.8rem,3vw,2.7rem);line-height:1;letter-spacing:-.06em}.explore-content small{max-width:380px;color:var(--muted);font-size:16px;line-height:1.5}.explore-arrow{position:absolute;right:32px;bottom:29px;color:var(--blue);font-size:27px}.main-invite{display:flex;justify-content:space-between;align-items:end;gap:35px;margin-top:16px;padding:38px 42px;background:#dfe8ff}.invite-kicker{margin:0 0 18px;color:#2049c7;font-size:12px;letter-spacing:.12em;font-weight:900}.main-invite h2{margin:0;font-size:clamp(2rem,4vw,3.6rem);line-height:1;letter-spacing:-.065em}.main-invite p:last-child{margin:14px 0 0;color:#354464;line-height:1.5}.invite-button{display:inline-flex;align-items:center;justify-content:space-between;gap:25px;min-height:55px;padding:15px 20px;background:#172d85;color:white;border-radius:4px;font-size:14px;font-weight:800;white-space:nowrap}.invite-button:hover{background:#101f61}
+@media(max-width:700px){.landing-brand{margin-top:20px}.landing-intro{padding:75px 0 45px}.explore-grid{grid-template-columns:1fr}.explore-card{min-height:225px;padding:26px}.explore-arrow{right:26px;bottom:26px}.main-invite{align-items:start;flex-direction:column;padding:30px 27px}.invite-button{width:100%}}
+@media(prefers-reduced-motion:reduce){.explore-card{transition:none}}
+</style>
 </head>
-<body>
-  <header class="header">
-    <nav class="nav wrap" aria-label="Main navigation">
-      <a class="brand" href="index.html" aria-label="Northfield Design, home"><span class="brand-mark" aria-hidden="true">N</span><span>Northfield Design.</span></a>
-      <div class="links"><a href="#services">Services</a><a class="about-link" href="#approach">How it works</a><a class="nav-contact" href="#contact">Get in touch ↗</a></div>
-    </nav>
-  </header>
-  <main>
-    <section class="hero wrap" aria-labelledby="hero-title">
-      <p class="eyebrow">Design & digital support</p>
-      <h1 id="hero-title">Good ideas.<br><span>Made visible.</span></h1>
-      <div class="hero-bottom"><p class="hero-copy">Web updates, graphics, social content and video editing for businesses that have things to say and no time to make it all happen.</p><a class="button" href="#services">Explore services <span aria-hidden="true">↗</span></a></div>
-    </section>
-    <section class="services" id="services" aria-labelledby="services-title"><div class="wrap">
-      <div class="section-top"><div><p class="section-label">What I can help with</p><h2 id="services-title">The services.</h2></div><p class="section-intro">Useful creative support, whether you need one design or someone to help keep things moving.</p></div>
-      <div class="service-grid">
-        <article class="service-card"><span class="service-number">01 /</span><div><h3>Website maintenance</h3><p>Keep your existing site current with updated text, photos, events, products and small page changes in your website builder.</p></div></article>
-        <article class="service-card"><span class="service-number">02 /</span><div><h3>Graphic design</h3><p>Posters, flyers, banners and digital graphics designed to make your message clear and look its best.</p></div></article>
-        <article class="service-card"><span class="service-number">03 /</span><div><h3>Social media support</h3><p>Graphics, captions and content planning to help your channels look consistent and stay active.</p></div></article>
-        <article class="service-card"><span class="service-number">04 /</span><div><h3>Video editing</h3><p>Short videos, promotional clips and YouTube edits with clean cuts, captions and simple graphics.</p></div></article>
-      </div>
-      <p class="extra"><strong>Something else in mind?</strong> Ask about other digital projects too.</p>
-    </div></section>
-    <section class="process wrap" id="approach" aria-labelledby="process-title"><p class="section-label">Simple from the start</p><h2 id="process-title">How we get it done.</h2><div class="steps">
-      <div class="step"><span>01 /</span><h3>Tell me what you need</h3><p>Send a quick email with your idea, the kind of help you need and any deadline.</p></div>
-      <div class="step"><span>02 /</span><h3>Agree on the details</h3><p>We’ll pin down the scope, timing and price before any work begins.</p></div>
-      <div class="step"><span>03 /</span><h3>Make it happen</h3><p>I’ll create or update what you need and send it over for your feedback.</p></div>
-    </div></section>
-    <section class="contact" id="contact" aria-labelledby="contact-title"><div class="wrap"><p class="section-label">Have a project in mind?</p><h2 id="contact-title">Let's make something work.</h2><p>Tell me what you need help with, even if you’re still figuring out the details.</p><span class="email-slot">Your email address will go here</span></div></section>
+<body class="landing-page">
+  <main class="landing wrap">
+    <a class="brand landing-brand" href="home.html" aria-label="Northfield Design, main page"><span class="brand-mark" aria-hidden="true">N</span><span>Northfield Design.</span></a>
+    <header class="landing-intro">
+      <p class="section-label">Northfield Design</p>
+      <h1>What do you want<br>to explore?</h1>
+      <p>Choose a service to see how I can help.</p>
+    </header>
+    <div class="explore-grid" aria-label="Explore services">
+      <a class="explore-card" href="services.html#social-media-management"><span class="explore-count">01 / DIGITAL CONTENT</span><span class="explore-content"><strong>Social Media<br>Management</strong><small>Content planning, graphics, captions and support with keeping your channels active.</small></span><span class="explore-arrow" aria-hidden="true">↗</span></a>
+      <a class="explore-card" href="services.html#video-editing"><span class="explore-count">02 / VIDEO</span><span class="explore-content"><strong>Video Editing</strong><small>Turn footage into clear, engaging videos for social media, promotions or YouTube.</small></span><span class="explore-arrow" aria-hidden="true">↗</span></a>
+      <a class="explore-card" href="services.html#website-maintenance"><span class="explore-count">03 / WEBSITES</span><span class="explore-content"><strong>Website<br>Maintenance</strong><small>Keep your existing site up to date with new text, images, events and small changes.</small></span><span class="explore-arrow" aria-hidden="true">↗</span></a>
+      <a class="explore-card" href="services.html#graphic-design"><span class="explore-count">04 / DESIGN</span><span class="explore-content"><strong>Graphic Design</strong><small>Posters, flyers, banners and digital graphics made for your message.</small></span><span class="explore-arrow" aria-hidden="true">↗</span></a>
+    </div>
+    <section class="main-invite" aria-labelledby="main-invite-title"><div><p class="invite-kicker">THE BIGGER PICTURE</p><h2 id="main-invite-title">Visit our main page.</h2><p>Get to know Northfield Design and see everything in one place.</p></div><a class="invite-button" href="home.html">Visit our main page <span aria-hidden="true">↗</span></a></section>
   </main>
-  <footer class="footer"><div class="footer-inner wrap"><span><strong>Northfield Design.</strong> Design & digital support.</span><span>© <span id="year">2026</span> Northfield Design</span></div></footer>
-  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
 </body>
 </html>
